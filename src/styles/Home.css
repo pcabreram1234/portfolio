@@ -1,0 +1,64 @@
+.MainPicture {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.backGround {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+.backGround img:nth-child(1) {
+  width: 575px;
+  object-fit: cover;
+}
+
+.backGround img:nth-child(2) {
+  width: 274px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.indexInfo span {
+  font-family: Rubik;
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 850px) {
+  .Home__Container {
+    padding: 5px;
+  }
+  .indexInfo {
+    text-align: center;
+  }
+
+  .backGround img:nth-child(1) {
+    width: 100%;
+  }
+  .backGround img:nth-child(2) {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+  .Home__Container {
+    height: 150vh !important;
+  }
+
+  .backGround img:nth-child(1) {
+    width: 375px;
+  }
+
+  .backGround img:nth-child(2) {
+    width: 35vw;
+  }
+}

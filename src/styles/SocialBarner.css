@@ -1,0 +1,95 @@
+.SocialBarner__container {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  width: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999999;
+}
+
+.SocialBarner__container ul {
+  list-style: none;
+}
+
+.SocialBarner__container ul li:hover {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.icon-Github {
+  background: white;
+}
+
+.icon-Gmail {
+  background: #bb001b;
+}
+
+.icon-Twitter {
+  background: #1da1f2;
+}
+
+.icon-LinkedIn {
+  background: #0072b1;
+}
+
+.SocialBarner__container ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.SocialBarner__container ul li a:hover {
+  padding-right: 5rem;
+  transform: translateX(-50px);
+  background: white;
+}
+
+.SocialBarner__container ul li a img {
+  width: 30px;
+  height: 30px;
+}
+
+.SocialBarner__container ul li:first-child a {
+  border-radius: 10px 0 0 0;
+}
+
+.SocialBarner__container ul li:last-child a {
+  border-radius: 0 0 0 10px;
+}
+
+@media (max-width: 850px) {
+  .SocialBarner__container {
+    width: auto;
+    opacity: 0.5;
+    top: 94vh;
+  }
+
+  .SocialBarner__container ul {
+    display: flex;
+  }
+
+  .SocialBarner__container ul li a {
+    padding: 0.5rem;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .SocialBarner__container ul li a:hover {
+    padding-right: 0;
+    transform: none;
+  }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+  .SocialBarner__container {
+    top: 90vh;
+  }
+}
