@@ -2,6 +2,11 @@ import React from "react";
 import initialConfig from "../util/config.json";
 import rocketBackground from "../assets/static/Rocket Backgound.png";
 import ProjectItem from "../components/ProjectItem";
+import AutosBelloPic from "../assets/static/projects/AutosBello.png";
+import CharosGardepic from "../assets/static/projects/CharosGarden.png";
+import RegisterPic from "../assets/static/projects/Register.png";
+import EkofarmingPic from "../assets/static/projects/Ekofarming.png";
+
 import "../styles/Projects.css";
 const Projects = () => {
   const style = {
@@ -12,10 +17,17 @@ const Projects = () => {
     backgroundPosition: "center",
   };
 
+  const imageRepoArray = [
+    AutosBelloPic,
+    CharosGardepic,
+    RegisterPic,
+    EkofarmingPic,
+  ];
+
   const projects = Object.values(initialConfig[0].pages.projects).map((el) => {
     return (
       <ProjectItem
-        image={el.image}
+        image={imageRepoArray[el.id]}
         link={el.link}
         text={el.text}
         key={Math.random() / el.id}
@@ -23,7 +35,7 @@ const Projects = () => {
         pageDetails={el.details["text-info"]}
         techUsed={el.details["tech-used"]}
         hasRepo={el.details.hasRepo}
-        gitRepoLink={el.details.gitRepo}
+        gitRepoLink={el.details.gitRepoLink}
       />
     );
   });

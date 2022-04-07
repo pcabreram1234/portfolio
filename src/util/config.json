@@ -19,9 +19,9 @@
       },
       "projects": {
         "AutosBello": {
-          "id": 1,
+          "id": 0,
           "link": "https://autosbellodealer.com/",
-          "image": "./assets/static/projects/AutosBello.png",
+          "image": "AutosBelloPic",
           "text": "Autos Bello",
           "details": {
             "title": "Autos Bello",
@@ -31,9 +31,9 @@
           }
         },
         "CharosGarden": {
-          "id": 2,
+          "id": 1,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
-          "image": "./assets/static/projects/CharosGarden.png",
+          "image": "CharosGardepic",
           "text": "Charos Garden",
           "details": {
             "title": "Charos Garden",
@@ -44,9 +44,9 @@
           }
         },
         "Register": {
-          "id": 3,
+          "id": 2,
           "link": "https://suspicious-davinci-23bef4.netlify.app/",
-          "image": "../assets/static/projects/Register.png",
+          "image": "RegisterPic",
           "text": "Register",
           "details": {
             "title": "Register",
@@ -57,9 +57,9 @@
           }
         },
         "Ekofarming": {
-          "id": 4,
+          "id": 3,
           "link": "https://ekofarming.net/",
-          "image": "./assets/static/projects/Ekofarming.png",
+          "image": "EkofarmingPic",
           "text": "Ekofarming",
           "details": {
             "title": "Ekofarming",
