@@ -7,7 +7,7 @@ const Design = () => {
   return (
     <div className="Design__container" id="design">
       <div className="title__container">
-        <h1> Fuentes y colores usados</h1>
+        <h1>Fonts and pallete colors used</h1>
       </div>
       <div className="Design-font_container">
         <span>Rubik One</span>
