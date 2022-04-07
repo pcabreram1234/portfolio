@@ -51,8 +51,8 @@ const ColorPalette = () => {
           <h2 className="PopOver--title">{el.color}</h2>
           <span className="PopOver--subtitle">{el.code}</span>
           <p className="PopOver--text">
-            Para ver los diferentes tipos de paletas para tus proyectos te
-            recomiendo la pagina My Color Space
+            To see the different types of palettes for your projects I recommend
+            the page My Color Space
           </p>
         </div>
       );
@@ -78,7 +78,7 @@ const ColorPalette = () => {
 
   return (
     <div className="Design-colors_container">
-      <span>Paleta de Colores</span>
+      <span>Color palette</span>
       <div className="colorItems">{colorItem}</div>
     </div>
   );
