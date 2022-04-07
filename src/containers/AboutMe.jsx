@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import useMatchMedia from "../hooks/useMatchMedia";
-import useFetchApi from "../hooks/useFetchApi";
+import initialConfig from "../util/config.json";
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
-  const initialConfig = useFetchApi(process.env.API_URL);
   let backGroundImage;
   const isMediaMatched = useMatchMedia("(max-width: 850px)");
   const isMediaLandscapeMatched = useMatchMedia(
@@ -46,11 +45,9 @@ const AboutMe = () => {
     }
   };
 
-  useEffect(() => {
-    if (initialConfig.length > 0) {
-      backGroundImage = initialConfig[0].pages.AboutMe.image;
-    }
-  }, []);
+  if (initialConfig.length > 0) {
+    backGroundImage = initialConfig[0].pages.AboutMe.image;
+  }
 
   return (
     <div className="AboutMe__Container" style={handleMatcMedia()} id="aboutMe">

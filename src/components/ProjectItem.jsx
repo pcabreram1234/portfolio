@@ -22,7 +22,7 @@ const ProjectItem = (props) => {
 
   return (
     <div className="ProjectItem__container">
-      <a href={props.link} target={"_blank"} className="repo-link">
+      <a href={props.link} target={"_blank"} className="repo-link" rel="noreferrer">
         <div className="projectItemInfo">
           <h1>{props.title}</h1>
           <p>{props.pageDetails}</p>

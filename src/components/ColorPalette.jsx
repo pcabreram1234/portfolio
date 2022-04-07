@@ -1,11 +1,10 @@
 import React from "react";
 import { Popover } from "antd";
 import useMatchMedia from "../hooks/useMatchMedia";
-import useFetchApi from "../hooks/useFetchApi";
+import InitialConfig from "../util/config.json";
 import "../styles/PopOver.css";
 
 const ColorPalette = () => {
-  const InitialConfig = useFetchApi(process.env.API_URL);
   const isMediaMatched = useMatchMedia("(max-width: 850px)");
   let palette;
   let colorItem;

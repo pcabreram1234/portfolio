@@ -15,6 +15,7 @@ const SocialBarner = () => {
             href={PersonalInfo[0].personalInfo.gitHub}
             className="icon-Github"
             target={"_blank"}
+            rel="noreferrer"
           >
             <img src={GitHubIcon} alt="" />
           </a>
@@ -24,6 +25,7 @@ const SocialBarner = () => {
             href={`mailto:${PersonalInfo[0].personalInfo.mail}`}
             className="icon-Gmail"
             target={"_blank"}
+            rel="noreferrer"
           >
             <img src={GmailIcon} alt="" />
           </a>
@@ -33,6 +35,7 @@ const SocialBarner = () => {
             href={PersonalInfo[0].personalInfo.linkedIn}
             className="icon-LinkedIn"
             target={"_blank"}
+            rel="noreferrer"
           >
             <img src={LinkedInIcon} alt="" />
           </a>
@@ -42,6 +45,7 @@ const SocialBarner = () => {
             href={PersonalInfo[0].personalInfo.twitter}
             className="icon-Twitter"
             target={"_blank"}
+            rel="noreferrer"
           >
             <img src={TwitterIcon} alt="" />
           </a>

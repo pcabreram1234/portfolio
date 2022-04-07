@@ -21,7 +21,7 @@
         "AutosBello": {
           "id": 1,
           "link": "https://autosbellodealer.com/",
-          "image": "../assets/static/projects/AutosBello.png",
+          "image": "./assets/static/projects/AutosBello.png",
           "text": "Autos Bello",
           "details": {
             "title": "Autos Bello",
@@ -33,7 +33,7 @@
         "CharosGarden": {
           "id": 2,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
-          "image": "../assets/static/projects/CharosGarden.png",
+          "image": "./assets/static/projects/CharosGarden.png",
           "text": "Charos Garden",
           "details": {
             "title": "Charos Garden",
@@ -59,7 +59,7 @@
         "Ekofarming": {
           "id": 4,
           "link": "https://ekofarming.net/",
-          "image": "../assets/static/projects/Ekofarming.png",
+          "image": "./assets/static/projects/Ekofarming.png",
           "text": "Ekofarming",
           "details": {
             "title": "Ekofarming",
