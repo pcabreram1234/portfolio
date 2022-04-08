@@ -10,7 +10,7 @@
   justify-content: space-evenly;
   list-style: none;
   padding: 5px 0;
-  background: #eee6ed48;
+  /*   background: #eee6ed48; */
 }
 
 .navbar-item a img {
@@ -61,5 +61,11 @@
 
   .navbar-item a span {
     display: none;
+  }
+
+  .list-items {
+    background: white;
+    border-bottom-right-radius: 4vh;
+    border-bottom-left-radius: 4vh;
   }
 }
