@@ -6,6 +6,7 @@ import AutosBelloPic from "../assets/static/projects/AutosBello.png";
 import CharosGardepic from "../assets/static/projects/CharosGarden.png";
 import RegisterPic from "../assets/static/projects/Register.png";
 import EkofarmingPic from "../assets/static/projects/Ekofarming.png";
+import eCommerceTemplatePic from "../assets/static/projects/eCommerceTemplate.png";
 
 import "../styles/Projects.css";
 const Projects = () => {
@@ -22,6 +23,7 @@ const Projects = () => {
     CharosGardepic,
     RegisterPic,
     EkofarmingPic,
+    eCommerceTemplatePic,
   ];
 
   const projects = Object.values(initialConfig[0].pages.projects).map((el) => {

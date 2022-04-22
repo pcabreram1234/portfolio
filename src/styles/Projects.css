@@ -1,13 +1,13 @@
 .mainProjects_container {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
   padding: 40px;
   align-items: center;
   justify-items: stretch;
 }
 
-.mainProjects_container>div{
+.mainProjects_container > div {
   margin: 10px 0;
 }
 

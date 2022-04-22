@@ -68,6 +68,19 @@
             "hasRepo": false,
             "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
           }
+        },
+        "e-Commerce Template": {
+          "id": 4,
+          "link": "https://e-commerce-template-pocho.netlify.app/",
+          "image": "eCommerceTemplatePic",
+          "text": "e-Commerce Template",
+          "details": {
+            "title": "e-Commerce Template",
+            "text-info": "Template corresponding to an e-commerce",
+            "tech-used": "HTMl, CSS, JavaScript, ReactJs, WebPack, Ant-Design",
+            "hasRepo": true,
+            "gitRepo": "https://e-commerce-template-pocho.netlify.app/"
+          }
         }
       },
       "skills": {
