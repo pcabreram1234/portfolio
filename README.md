@@ -4,10 +4,10 @@
 This repository has the purpose of saving everything related to <a href="https://pcabreram-portfolio.netlify.app"><strong>💻My portfolio🎨</strong></a> .
 In it you will find the following aspects of my life as a web developer.
 
-> My personal information
-> My skills
-> My contacts
-> Social networks
+- My personal information
+- My skills
+- My contacts
+- Social networks
 
 ## Technologies used
 
