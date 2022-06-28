@@ -13,9 +13,11 @@ In it you will find the following aspects of my life as a web developer.
 
 For the creation of this portfolio I have used the following Web technologies.
 
-- HTML
-- CSS
-- JavaScript
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
 
 ### Other technologies
 
