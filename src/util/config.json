@@ -9,36 +9,36 @@
     },
     "pages": {
       "Index": {
-        "title": "Let me help you to create your new web solution",
+        "title": "Hi I`m Phillip and this is my  portfolio.",
         "image": "./assets/static/profile.png"
       },
       "AboutMe": {
         "title": "ABOUT ME!!",
-        "text": "Hello, My name is Philip, affectionately 'pocho'😊 , I am an enthusiastic learner in everything related to web development. I like to cook, chat with friends, read, study and especially the family. 🔭 I currently work as a Geografic database analyst in one of the electricity distribution companies in my country. 👯",
+        "text": "Hello, My name is Philip, I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
         "image": "./assets/static/AboutMe.png"
       },
       "projects": {
         "AutosBello": {
           "id": 0,
           "link": "https://autosbellodealer.com/",
-          "image": "AutosBelloPic",
+          "image": "src/assets/static/projects/AutosBello.png",
           "text": "Autos Bello",
           "details": {
             "title": "Autos Bello",
-            "text-info": "Page created for a car dealer located in Esperanza, Mao Valverde Rep. Dom",
-            "tech-used": "HTMl, CSS, JavaScript y WebPack",
+            "textInfo": "Page created for a car dealer located in Esperanza, Mao Valverde Rep. Dom",
+            "techUsed": "HTMl, CSS, JavaScript y WebPack",
             "hasRepo": false
           }
         },
         "CharosGarden": {
           "id": 1,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
-          "image": "CharosGardepic",
+          "image": "src/assets/static/projects/CharosGarden.png",
           "text": "Charos Garden",
           "details": {
             "title": "Charos Garden",
-            "text-info": "Website inspired by a friend's business selling ornamental plants",
-            "tech-used": "HTMl, CSS, JavaScript, ReactJs, ReactRouter, WebPack",
+            "textInfo": "Website inspired by a friend's business selling ornamental plants",
+            "techUsed": "HTMl, CSS, JavaScript, ReactJs, ReactRouter, WebPack",
             "hasRepo": true,
             "gitRepo": "https://github.com/pcabreram1234/charos-garden"
           }
@@ -46,12 +46,12 @@
         "Register": {
           "id": 2,
           "link": "https://suspicious-davinci-23bef4.netlify.app/",
-          "image": "RegisterPic",
+          "image": "src/assets/static/projects/Register.png",
           "text": "Register",
           "details": {
             "title": "Register",
-            "text-info": "This is a form that saves data such as salaries by profession and then shows them in a general way",
-            "tech-used": "HTMl, CSS, JavaScript, ReactJs, ReactRouter, WebPack",
+            "textInfo": "This is a form that saves data such as salaries by profession and then shows them in a general way",
+            "techUsed": "HTMl, CSS, JavaScript, ReactJs, ReactRouter, WebPack",
             "hasRepo": true,
             "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
           }
@@ -59,12 +59,12 @@
         "Ekofarming": {
           "id": 3,
           "link": "https://ekofarming.net/",
-          "image": "EkofarmingPic",
+          "image": "src/assets/static/projects/Ekofarming.png",
           "text": "Ekofarming",
           "details": {
             "title": "Ekofarming",
-            "text-info": "Website for a company dedicated to the sale, purchase and processing of agricultural products",
-            "tech-used": "HTMl, CSS, JavaScript, ReactJs y WebPack",
+            "textInfo": "Website for a company dedicated to the sale, purchase and processing of agricultural products",
+            "techUsed": "HTMl, CSS, JavaScript, ReactJs y WebPack",
             "hasRepo": false,
             "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
           }
@@ -72,12 +72,12 @@
         "e-Commerce Template": {
           "id": 4,
           "link": "https://e-commerce-template-pocho.netlify.app/",
-          "image": "eCommerceTemplatePic",
+          "image": "src/assets/static/projects/eCommerceTemplate.png",
           "text": "e-Commerce Template",
           "details": {
             "title": "e-Commerce Template",
-            "text-info": "Template corresponding to an e-commerce",
-            "tech-used": "HTMl, CSS, JavaScript, ReactJs, WebPack, Ant-Design",
+            "textInfo": "Template corresponding to an e-commerce",
+            "techUsed": "HTMl, CSS, JavaScript, ReactJs, WebPack, Ant-Design",
             "hasRepo": true,
             "gitRepo": "https://e-commerce-template-pocho.netlify.app/"
           }

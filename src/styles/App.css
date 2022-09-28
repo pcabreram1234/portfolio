@@ -20,17 +20,10 @@ html {
 
 body {
   width: 100%;
-}
-/* #app {
+  background-color: #151515 !important;
   overflow-x: hidden;
-} */
-
-#app .Main__Container .Home__Container {
-  background-color: #7f4d3e;
-  height: 100vh;
 }
 
-#app .Main__Container .AboutMe__Container {
-  background-color: white;
-  height: 100vh;
+#app {
+  overflow-x: hidden;
 }

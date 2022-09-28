@@ -1,53 +1,42 @@
-import React from "react";
-import initialConfig from "../util/config.json";
-import rocketBackground from "../assets/static/Rocket Backgound.png";
-import ProjectItem from "../components/ProjectItem";
-import AutosBelloPic from "../assets/static/projects/AutosBello.png";
-import CharosGardepic from "../assets/static/projects/CharosGarden.png";
-import RegisterPic from "../assets/static/projects/Register.png";
-import EkofarmingPic from "../assets/static/projects/Ekofarming.png";
-import eCommerceTemplatePic from "../assets/static/projects/eCommerceTemplate.png";
+import React, { useState } from "react";
+import Carousel from "../components/Carousel";
+import InitialConfig from "../util/config.json";
+import { Typography, Row, Col, Image } from "antd";
 
-import "../styles/Projects.css";
-const Projects = () => {
-  const style = {
-    backgroundImage: "url(" + rocketBackground + ")",
-    backgroundSize: "cover",
-    height: "100%",
-    backgroundColor: "#2A272A",
-    backgroundPosition: "center",
-  };
-
-  const imageRepoArray = [
-    AutosBelloPic,
-    CharosGardepic,
-    RegisterPic,
-    EkofarmingPic,
-    eCommerceTemplatePic,
-  ];
-
-  const projects = Object.values(initialConfig[0].pages.projects).map((el) => {
-    return (
-      <ProjectItem
-        image={imageRepoArray[el.id]}
-        link={el.link}
-        text={el.text}
-        key={Math.random() / el.id}
-        title={el.details.title}
-        pageDetails={el.details["text-info"]}
-        techUsed={el.details["tech-used"]}
-        hasRepo={el.details.hasRepo}
-        gitRepoLink={el.details.gitRepoLink}
-      />
-    );
-  });
-
+const { Title, Text } = Typography;
+const Projects = (props) => {
   return (
-    <div className="Projects__container" style={style} id="projects">
-      <div className="Projects-tittle">
-        <h1>Projects</h1>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        height: "100vh",
+        textAlign: "center",
+        padding: "10px 0",
+      }}
+    >
+      <Title style={{ color: "white", fontFamily: "Rubik" }}>Projects</Title>
+      <div id="Selected_item">
+        <Row>
+          <Col>
+            <Text>{props.title}</Text>
+            <Image src={props.image} width="auto" />
+          </Col>
+          <Col>
+            <Text>
+              {props.textInfo} - {props.techUsed}{" "}
+            </Text>
+
+            {props.hasRepo && (
+              <a target={"_blank"} href={props.gitRepo}>
+                Repository
+              </a>
+            )}
+          </Col>
+        </Row>
       </div>
-      <div className="mainProjects_container">{projects}</div>
+      <Carousel items={InitialConfig[0].pages.projects} />
     </div>
   );
 };

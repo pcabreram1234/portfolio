@@ -1,17 +1,20 @@
 import React from "react";
 import GitHubIcon from "../assets/static/GitHub.png";
+import { Image, Row, Col, Typography, Anchor, Button } from "antd";
 const ProjectItem = (props) => {
+  const { Title, Text } = Typography;
+  const { Link } = Anchor;
   function hasGitRepo() {
     if (props.hasRepo) {
       return (
-        <button
-          className="Img--repo"
+        <Button
+          type="link"
           onClick={() => {
             goToPage(props.gitRepoLink);
           }}
         >
-          <img src={GitHubIcon} alt="" className="Img--repo" />
-        </button>
+          <Image src={GitHubIcon} />
+        </Button>
       );
     }
   }
@@ -21,20 +24,20 @@ const ProjectItem = (props) => {
   }
 
   return (
-    <div className="ProjectItem__container">
-      <a href={props.link} target={"_blank"} className="repo-link" rel="noreferrer">
-        <div className="projectItemInfo">
-          <h1>{props.title}</h1>
-          <p>{props.pageDetails}</p>
-          <h2>Used technology</h2>
-          <p>{props.techUsed}</p>
-          {hasGitRepo()}
-        </div>
-        <div className="ProjectItem--image">
-          <img src={props.image} alt="" />
-        </div>
-      </a>
-    </div>
+    <Row>
+      <Col span={14}>
+        <Title>{props.title}</Title>
+        <Anchor>
+          <Link>
+            <Image src={props.image} preview={false} width="100%" />
+          </Link>
+        </Anchor>
+      </Col>
+
+      <Col span={10}>
+        <Text>{props.text - info}</Text>
+      </Col>
+    </Row>
   );
 };
 

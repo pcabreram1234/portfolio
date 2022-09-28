@@ -22,7 +22,7 @@ const Skills = () => {
   const { skillsLinks } = initialConfig[0].pages.skills;
 
   return (
-    <div className="Skills__container" style={style} id="skills">
+    <div className="Skills__container" /* style={style}  */id="skills">
       <div className="Skills__list_container">
         <div className="Skills--items">
           <div className="Skills-items__container">
