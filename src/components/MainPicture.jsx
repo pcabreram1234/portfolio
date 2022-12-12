@@ -25,6 +25,7 @@ const MainPicture = () => {
           style={{
             color: "#FFFFFF",
             textAlign: "center",
+            fontSize: "50px",
           }}
         >
           {initialConfig[0].pages.Index.title}

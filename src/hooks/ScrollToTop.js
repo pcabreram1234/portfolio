@@ -8,7 +8,7 @@ const ScrollToTop = () => {
       top: 0,
       left: 0,
       behavior: "smooth",
-    });
+    }); 
   }, [pathname]);
 
   return null;

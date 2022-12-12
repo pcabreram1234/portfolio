@@ -14,7 +14,7 @@
       },
       "AboutMe": {
         "title": "ABOUT ME!!",
-        "text": "Hello, My name is Philip, I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
+        "text": "I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
         "image": "./assets/static/AboutMe.png"
       },
       "projects": {

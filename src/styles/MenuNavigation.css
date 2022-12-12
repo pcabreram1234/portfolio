@@ -1,0 +1,9 @@
+div.menuNav .menuNav-list li a:hover {
+  color: rgb(104, 104, 248) !important;
+}
+
+@media (max-width: 850px) {
+  div.menuNav .menuNav-list {
+    gap: 7px;
+  }
+}
