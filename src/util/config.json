@@ -17,8 +17,8 @@
         "text": "I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
         "image": "./assets/static/AboutMe.png"
       },
-      "projects": {
-        "AutosBello": {
+      "projects": [
+        {
           "id": 0,
           "link": "https://autosbellodealer.com/",
           "image": "src/assets/static/projects/AutosBello.png",
@@ -30,7 +30,7 @@
             "hasRepo": false
           }
         },
-        "CharosGarden": {
+        {
           "id": 1,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
           "image": "src/assets/static/projects/CharosGarden.png",
@@ -43,7 +43,7 @@
             "gitRepo": "https://github.com/pcabreram1234/charos-garden"
           }
         },
-        "Register": {
+        {
           "id": 2,
           "link": "https://suspicious-davinci-23bef4.netlify.app/",
           "image": "src/assets/static/projects/Register.png",
@@ -56,7 +56,7 @@
             "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
           }
         },
-        "Ekofarming": {
+        {
           "id": 3,
           "link": "https://ekofarming.net/",
           "image": "src/assets/static/projects/Ekofarming.png",
@@ -69,7 +69,7 @@
             "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
           }
         },
-        "e-Commerce Template": {
+        {
           "id": 4,
           "link": "https://e-commerce-template-pocho.netlify.app/",
           "image": "src/assets/static/projects/eCommerceTemplate.png",
@@ -82,7 +82,7 @@
             "gitRepo": "https://e-commerce-template-pocho.netlify.app/"
           }
         }
-      },
+      ],
       "skills": {
         "containerSkill": "./assets/static/skillsContaineBackground.png",
         "backGround": "./assets/static/SkillsBackground.png",

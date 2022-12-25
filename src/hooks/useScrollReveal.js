@@ -5,7 +5,7 @@ const useScrollReveal = (node) => {
     delay: 150,
     scale: 1,
     easing: "ease-in",
-    origin:"top"
+    origin: "top",
   };
   ScrollReveal().reveal(node, srConfig);
 };

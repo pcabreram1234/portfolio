@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Carousel from "../components/Carousel";
-import InitialConfig from "../util/config.json";
 import GitHubIcon from "../assets/icons/GitHub.png";
+import ProjectsGrid from "../components/ProjectsGrid";
+import ProjectItem from "../components/ProjectItem";
 import { Typography, Row, Col, Image } from "antd";
 
 const { Title, Text } = Typography;
@@ -29,17 +29,8 @@ const Projects = () => {
     setGitRepo(gitRepo);
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        height: "100vh",
-        textAlign: "center",
-        padding: "20px",
-      }}
-    >
-      <Title style={{ color: "white", fontFamily: "Rubik", fontSize: "50px" }}>
+    <div id="Projects__container">
+      {/* <Title style={{ color: "white", fontFamily: "Rubik", fontSize: "50px" }}>
         Projects
       </Title>
 
@@ -66,16 +57,12 @@ const Projects = () => {
                 preview={false}
                 style={{ filter: "inver(1)" }}
               />
-              Repository
             </a>
           )}
         </Col>
-      </Row>
-
-      <Carousel
-        items={InitialConfig[0].pages.projects}
-        handleItem={handleItem}
-      />
+      </Row> */}
+      <Title>Works</Title>
+      <ProjectsGrid />
     </div>
   );
 };

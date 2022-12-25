@@ -39,7 +39,7 @@
   text-decoration: none;
   color: white;
 }
-.ProjectItem__container a .ProjectItem--image {
+.ProjectItem__container .ProjectItem--image {
   transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -58,18 +58,19 @@
   cursor: pointer;
 }
 
-.ProjectItem__container a:hover .ProjectItem--image {
-  transform: scale(1.2);
+.ProjectItem__container .ProjectItem--image:hover {
+  transform: scale(1.1);
 }
 
-.ProjectItem__container a:hover .ProjectItem--image img {
-  opacity: 0.25;
+.ProjectItem__container .ProjectItem--image img:hover {
+  opacity: 1;
 }
 
-.ProjectItem--image img {
+.ProjectItem--image {
   width: 500px;
   object-fit: cover;
   border-radius: 40px;
+  opacity: 0.25;
 }
 
 .repo-link {
