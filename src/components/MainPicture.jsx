@@ -1,26 +1,25 @@
 import React from "react";
-import mainPicture from "../assets/static/Picture.png";
 import initialConfig from "../util/config.json";
-
-import "../styles/Home.css";
-
-import { Typography, Image, Row, Col } from "antd";
+import { Typography, Row, Layout } from "antd";
 
 const MainPicture = () => {
   const { Title } = Typography;
+  const { Content } = Layout;
 
   return (
-    <Row align="middle" id="home" justify="space-between">
-      <Col span={"auto"}>
-        <Image
-          src={mainPicture}
-          preview={false}
-          style={{ opacity: "0.3" }}
-          width={"50vw"}
-        />
-      </Col>
-
-      <Col span={10} pull={1}>
+    <Layout
+      style={{
+        backgroundColor: "transparent",
+        height: "100vh",
+      }}
+    >
+      <Content
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <Title
           style={{
             color: "#FFFFFF",
@@ -30,8 +29,8 @@ const MainPicture = () => {
         >
           {initialConfig[0].pages.Index.title}
         </Title>
-      </Col>
-    </Row>
+      </Content>
+    </Layout>
   );
 };
 

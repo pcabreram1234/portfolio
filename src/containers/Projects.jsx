@@ -1,70 +1,114 @@
 import React, { useState } from "react";
-import GitHubIcon from "../assets/icons/GitHub.png";
-import ProjectsGrid from "../components/ProjectsGrid";
-import ProjectItem from "../components/ProjectItem";
-import { Typography, Row, Col, Image } from "antd";
+import { Image, Typography, Carousel, Layout, Row, Col, Anchor } from "antd";
+import InitialConfig from "../util/config.json";
+import "../styles/Projects.css";
 
-const { Title, Text } = Typography;
-const Projects = () => {
-  const [title, setTitle] = useState([]);
-  const [image, setImage] = useState([]);
-  const [textInfo, setTextInfo] = useState([]);
-  const [techUsed, setTechUsed] = useState([]);
-  const [hasRepo, setHasRep] = useState([]);
-  const [gitRepo, setGitRepo] = useState([]);
+const { projects } = InitialConfig[0].pages;
+const { Title, Text, Paragraph } = Typography;
+const { Content, Footer } = Layout;
+const { Link } = Anchor;
+const ProjectsGrid = () => {
+  const [title, setTitle] = useState([projects[0].text]);
+  const [image, setImage] = useState([projects[0].image]);
+  const [description, setDescription] = useState([
+    projects[0].details.textInfo,
+  ]);
+  const [hasRepo, setHasRepo] = useState([projects[0].details.hasRepo]);
+  const [gitHubRepo, setGitHubRepo] = useState([projects[0].details.gitRepo]);
+  const [techUsed, setTechUsed] = useState([projects[0].details.techUsed]);
+  const [link, setLink] = useState(projects[0].link);
 
-  const handleItem = ({
+  const handleClickProject = (
     title,
     image,
-    textInfo,
-    techUsed,
+    description,
     hasRepo,
-    gitRepo,
-  }) => {
+    gitHubRepo,
+    techUsed,
+    link
+  ) => {
     setTitle(title);
     setImage(image);
-    setTextInfo(textInfo);
+    setDescription(description);
+    setHasRepo(hasRepo);
+    setGitHubRepo(gitHubRepo);
     setTechUsed(techUsed);
-    setHasRep(hasRepo);
-    setGitRepo(gitRepo);
+    setLink(link);
   };
   return (
-    <div id="Projects__container">
-      {/* <Title style={{ color: "white", fontFamily: "Rubik", fontSize: "50px" }}>
-        Projects
+    <Layout style={{ height: "100vh", background: "none" }}>
+      <Title style={{ color: "white", textAlign: "center", fontSize: "50px" }}>
+        Works
       </Title>
-
-      <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} align="middle">
-        <Col span={10}>
-          <Text style={{ color: "white", fontSize: "40px" }}>{title}</Text>
-          <Image src={image} preview={false} style={{ width: "500px" }} />
-        </Col>
-
-        <Col span={12}>
-          <Text style={{ color: "white", fontSize: "25px" }}>
-            {textInfo} {techUsed}
-          </Text>
-          {hasRepo && (
-            <a
-              target={"_blank"}
-              href={gitRepo}
-              style={{ color: "white", fontSize: "25px" }}
-            >
-              <Image
-                src={GitHubIcon}
-                width="30"
-                height="30"
-                preview={false}
-                style={{ filter: "inver(1)" }}
-              />
+      <Content>
+        <Row justify="center" align="middle">
+          <Col
+            span={12}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Text style={{ fontSize: "35px", color: "white" }}>{title}</Text>
+            <a target="_blank" href={link}>
+              <Image src={image} preview={false} width={600} />
             </a>
-          )}
-        </Col>
-      </Row> */}
-      <Title>Works</Title>
-      <ProjectsGrid />
-    </div>
+          </Col>
+          <Col span={10}>
+            <Paragraph
+              style={{ color: "white", fontSize: "35px", textAlign: "center" }}
+            >
+              {description}, technologies used: {techUsed},{" "}
+              {hasRepo === true ? (
+                <a
+                  href={gitHubRepo}
+                  target={"_blank"}
+                  style={{ textDecoration: "none", color: "wheat" }}
+                >
+                  Repository
+                </a>
+              ) : null}
+            </Paragraph>
+          </Col>
+        </Row>
+      </Content>
+      <Footer style={{ background: "none" }}>
+        <Carousel
+          slidesToShow={3}
+          dotPosition="bottom"
+          autoplay
+          draggable
+          className="carouselClass"
+        >
+          {projects.map((project) => {
+            return (
+              <div
+                id={project.id}
+                onClick={() => {
+                  const { details, image, link } = project;
+                  const { textInfo, hasRepo, techUsed, gitRepo, title } =
+                    details;
+                  handleClickProject(
+                    title,
+                    image,
+                    textInfo,
+                    hasRepo,
+                    gitRepo,
+                    techUsed,
+                    link
+                  );
+                  console.log(textInfo);
+                }}
+              >
+                <Image src={project.image} preview={false} />
+              </div>
+            );
+          })}
+        </Carousel>
+      </Footer>
+    </Layout>
   );
 };
 
-export default Projects;
+export default ProjectsGrid;
