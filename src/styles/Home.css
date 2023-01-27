@@ -1,0 +1,5 @@
+@media (max-width: 850px) {
+  .AboutMe__Title {
+    font-size: 30px !important;
+  }
+}

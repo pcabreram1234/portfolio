@@ -1,45 +1,9 @@
-.RigthImage__Container {
-  position: relative;
-  width: 100%;
-  z-index: 1;
-}
-
-.RigthImage__Container img:nth-child(1) {
-  width: 250px;
-  position: absolute;
-  z-index: 4;
-  left: 78vw;
-  top: 4vh;
-}
-
-.RigthImage__Container img:nth-child(2) {
-  width: 450px;
-  position: absolute;
-  z-index: 3;
-  top: -40px;
-  left: 70vw;
-}
-
-.AboutMe__info {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.AboutMe__Title h1,
-.AboutMe__Text h2 {
-  font-family: Rubik;
-  text-align: center;
-  line-height: 6vh;
-}
-
 @media (max-width: 850px) {
   .AboutMe__Container {
-    padding: 5px;
+    height: 100vh !important;
   }
+
   .AboutMe__Text {
-    padding: 0 20px;
+    font-size: 30px !important;
   }
 }

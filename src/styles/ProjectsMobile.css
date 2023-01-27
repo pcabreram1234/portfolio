@@ -1,0 +1,5 @@
+@media (max-width: 850px) {
+  .ProjectsMobile_container {
+    height: 100vh;
+  }
+}

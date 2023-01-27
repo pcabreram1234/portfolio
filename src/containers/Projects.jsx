@@ -40,7 +40,14 @@ const ProjectsGrid = () => {
       <Title style={{ color: "white", textAlign: "center", fontSize: "50px" }}>
         Works
       </Title>
-      <Content>
+      <Content
+        style={{
+          gap: "10%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+        }}
+      >
         <Row justify="center" align="middle">
           <Col
             span={12}
@@ -72,8 +79,6 @@ const ProjectsGrid = () => {
             </Paragraph>
           </Col>
         </Row>
-      </Content>
-      <Footer style={{ background: "none" }}>
         <Carousel
           slidesToShow={3}
           dotPosition="bottom"
@@ -106,7 +111,7 @@ const ProjectsGrid = () => {
             );
           })}
         </Carousel>
-      </Footer>
+      </Content>
     </Layout>
   );
 };
