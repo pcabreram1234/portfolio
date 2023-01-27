@@ -36,7 +36,7 @@ const ProjectsGrid = () => {
     setLink(link);
   };
   return (
-    <Layout style={{ height: "100vh", background: "none" }}>
+    <Layout style={{ height: "100vh", background: "none" }} id="projects">
       <Title style={{ color: "white", textAlign: "center", fontSize: "50px" }}>
         Works
       </Title>

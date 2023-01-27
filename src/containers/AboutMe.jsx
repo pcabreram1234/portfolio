@@ -13,6 +13,7 @@ const AboutMe = () => {
       gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
       style={{ padding: "0 30px", height: "100vh" }}
       className="AboutMe__Container"
+      id="about"
     >
       <Text
         style={{

@@ -6,7 +6,7 @@ const { Title, Text } = Typography;
 const { contact } = InitialConfing[0].pages;
 const Contact = () => {
   return (
-    <div className="Contact_container">
+    <div className="Contact_container" id="contacts">
       <Title>Contact</Title>
       <Text>Let me help you to create your new web solution</Text>
       <div className="Contact_list_container">

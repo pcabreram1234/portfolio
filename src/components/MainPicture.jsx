@@ -14,6 +14,7 @@ const MainPicture = () => {
         height: "100vh",
       }}
       className="Home__Container"
+      id="home"
     >
       <Content
         style={{
