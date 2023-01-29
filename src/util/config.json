@@ -21,7 +21,7 @@
         {
           "id": 0,
           "link": "https://autosbellodealer.com/",
-          "image": "src/assets/static/projects/AutosBello.png",
+          "image": "/assets/static/projects/AutosBello.png",
           "text": "Autos Bello",
           "details": {
             "title": "Autos Bello",
@@ -33,7 +33,7 @@
         {
           "id": 1,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
-          "image": "src/assets/static/projects/CharosGarden.png",
+          "image": "/assets/static/projects/CharosGarden.png",
           "text": "Charos Garden",
           "details": {
             "title": "Charos Garden",
@@ -46,7 +46,7 @@
         {
           "id": 2,
           "link": "https://suspicious-davinci-23bef4.netlify.app/",
-          "image": "src/assets/static/projects/Register.png",
+          "image": "/assets/static/projects/Register.png",
           "text": "Register",
           "details": {
             "title": "Register",
@@ -59,7 +59,7 @@
         {
           "id": 3,
           "link": "https://ekofarming.net/",
-          "image": "src/assets/static/projects/Ekofarming.png",
+          "image": "/assets/static/projects/Ekofarming.png",
           "text": "Ekofarming",
           "details": {
             "title": "Ekofarming",
@@ -72,7 +72,7 @@
         {
           "id": 4,
           "link": "https://e-commerce-template-pocho.netlify.app/",
-          "image": "src/assets/static/projects/eCommerceTemplate.png",
+          "image": "/assets/static/projects/eCommerceTemplate.png",
           "text": "e-Commerce Template",
           "details": {
             "title": "e-Commerce Template",
@@ -86,31 +86,31 @@
       "skills": [
         {
           "text": "Two years of experience with the structuring of web pages with HTML.",
-          "icon": "dist/assets/static/html5.png"
+          "icon": "/assets/static/html5.png"
         },
         {
           "text": "One year of experience with the styling process in pure CSS.",
-          "icon": "dist/assets/static/css3.png"
+          "icon": "/assets/static/css3.png"
         },
         {
           "text": "Considerable experience about how to add interactivity on a web page.",
-          "icon": "dist/assets/static/javascript.png"
+          "icon": "/assets/static/javascript.png"
         },
         {
           "text": "Two years of experience with the backend development.",
-          "icon": "dist/assets/static/php-icon.png"
+          "icon": "/assets/static/php-icon.png"
         },
         {
           "text": "Some of my projects are build with this amazin library.",
-          "icon": "dist/assets/static/react-icon.png"
+          "icon": "/assets/static/react-icon.png"
         },
         {
           "text": "One year of experience about the MYSQL Databases managment",
-          "icon": "dist/assets/static/mysql.png"
+          "icon": "/assets/static/mysql.png"
         },
         {
           "text": "Knowledge required to work with version control",
-          "icon": "dist/assets/static/git-icon.png"
+          "icon": "/assets/static/git-icon.png"
         }
       ],
       "design": {
@@ -154,19 +154,19 @@
       },
       "contact": [
         {
-          "icon": "dist/assets/icons/GitHub.png",
+          "icon": "/assets/icons/GitHub.png",
           "link": "https://github.com/pcabreram1234"
         },
         {
-          "icon": "dist/assets/icons/Gmail.png",
+          "icon": "/assets/icons/Gmail.png",
           "link": "mailto:pcabreram1234@gmail.com"
         },
         {
-          "icon": "dist/assets/icons/LinkedIn.png",
+          "icon": "/assets/icons/LinkedIn.png",
           "link": "https://www.linkedin.com/in/phillip-leonardo-cabrera-medrano/"
         },
         {
-          "icon": "dist/assets/icons/Twitter.png",
+          "icon": "/assets/icons/Twitter.png",
           "link": "https://twitter.com/pcabreram1234"
         }
       ]
