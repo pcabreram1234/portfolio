@@ -3,6 +3,14 @@ div.menuNav .menuNav-list li a:hover {
 }
 
 @media (max-width: 850px) {
+  div.menuNav .menuNav-list li a:hover {
+    color: white;
+  }
+
+  .menuNav-list li {
+    margin: 0 5px;
+  }
+
   div.menuNav .menuNav-list {
     gap: 7px;
   }

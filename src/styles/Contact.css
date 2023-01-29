@@ -31,5 +31,7 @@
   .Contact_container {
     text-align: center;
     gap: 40px;
+    justify-content: center;
+    height: 100vh;
   }
 }
