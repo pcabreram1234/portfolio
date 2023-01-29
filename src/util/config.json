@@ -86,31 +86,31 @@
       "skills": [
         {
           "text": "Two years of experience with the structuring of web pages with HTML.",
-          "icon": "src/assets/static/html5.png"
+          "icon": "dist/assets/static/html5.png"
         },
         {
           "text": "One year of experience with the styling process in pure CSS.",
-          "icon": "src/assets/static/css3.png"
+          "icon": "dist/assets/static/css3.png"
         },
         {
           "text": "Considerable experience about how to add interactivity on a web page.",
-          "icon": "src/assets/static/javascript.png"
+          "icon": "dist/assets/static/javascript.png"
         },
         {
           "text": "Two years of experience with the backend development.",
-          "icon": "src/assets/static/php-icon.png"
+          "icon": "dist/assets/static/php-icon.png"
         },
         {
           "text": "Some of my projects are build with this amazin library.",
-          "icon": "src/assets/static/react-icon.png"
+          "icon": "dist/assets/static/react-icon.png"
         },
         {
           "text": "One year of experience about the MYSQL Databases managment",
-          "icon": "src/assets/static/mysql.png"
+          "icon": "dist/assets/static/mysql.png"
         },
         {
           "text": "Knowledge required to work with version control",
-          "icon": "src/assets/static/git-icon.png"
+          "icon": "dist/assets/static/git-icon.png"
         }
       ],
       "design": {
@@ -154,19 +154,19 @@
       },
       "contact": [
         {
-          "icon": "src/assets/icons/GitHub.png",
+          "icon": "dist/assets/icons/GitHub.png",
           "link": "https://github.com/pcabreram1234"
         },
         {
-          "icon": "src/assets/icons/Gmail.png",
+          "icon": "dist/assets/icons/Gmail.png",
           "link": "mailto:pcabreram1234@gmail.com"
         },
         {
-          "icon": "src/assets/icons/LinkedIn.png",
+          "icon": "dist/assets/icons/LinkedIn.png",
           "link": "https://www.linkedin.com/in/phillip-leonardo-cabrera-medrano/"
         },
         {
-          "icon": "src/assets/icons/Twitter.png",
+          "icon": "dist/assets/icons/Twitter.png",
           "link": "https://twitter.com/pcabreram1234"
         }
       ]
