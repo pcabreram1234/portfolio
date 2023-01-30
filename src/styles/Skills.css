@@ -1,9 +1,12 @@
+.main_skills_container {
+  padding: 40vh 0;
+  text-align: center;
+}
 .skills_container {
   display: grid;
+  grid-template-columns: repeat(3, auto);
   align-items: center;
   justify-items: center;
-  height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .skills_container div:last-child {
@@ -30,27 +33,7 @@
 
 @media (max-width: 850px) {
   .skills_container {
-    height: 100% !important;
-    padding: 100px 0 0 0;
-    display: flex !important;
+    display: flex;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 850px) and (orientation: landscape) {
-  .skills_container {
-    padding: 200px 0 0 0;
-  }
-}
-
-@media (max-width: 580px) {
-  .skills_container {
-    padding: 300px 0 0 0;
-  }
-}
-
-@media (max-width: 580px) and (orientation: landscape) {
-  .skills_container {
-    padding: 550px 0 0 0;
   }
 }

@@ -25,7 +25,6 @@ const ProjectsMobile = () => {
           justifyContent: "center",
           flexWrap: "wrap",
           gap: "10px",
-          height: "100vh",
         }}
       >
         {projects.map((project) => {
