@@ -15,7 +15,7 @@
       "AboutMe": {
         "title": "ABOUT ME!!",
         "text": "I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
-        "image": "./assets/static/AboutMe.png"
+        "image": "/assets/static/profile.png"
       },
       "projects": [
         {
@@ -32,6 +32,45 @@
         },
         {
           "id": 1,
+          "link": "https://cowofi.netlify.app/",
+          "image": "/assets/static/projects/cowofi.png",
+          "text": "CoWoFi",
+          "details": {
+            "title": "CoWoFi",
+            "textInfo": "Where you can find and publish your dreaming Co-Woking Place. CoWoFi is an application that helps managers, executives and the general public who need to rent an ideal space for their work team",
+            "techUsed": "HTML, CSS, JavaScript, ViteJs, VueJs",
+            "hasRepo": true,
+            "gitRepo": "https://github.com/Cowofi/cowofi"
+          }
+        },
+        {
+          "id": 2,
+          "link": "https://cheerful-kashata-344bd4.netlify.app/",
+          "image": "/assets/static/projects/Mapping.png",
+          "text": "Mapping",
+          "details": {
+            "title": "Mapping",
+            "textInfo": "Country search on the map",
+            "techUsed": "HTML, CSS, JavaScript, ReactJs, ViteJs, react-leaflet",
+            "hasRepo": true,
+            "gitRepo": "https://github.com/pcabreram1234/mapping"
+          }
+        },
+        {
+          "id": 2,
+          "link": "https://631419f06702a714ba89db3e--profound-pixie-a616dc.netlify.app/",
+          "image": "/assets/static/projects/ToDoListVue.png",
+          "text": "To-Do List",
+          "details": {
+            "title": "To-Do List with VueJs",
+            "textInfo": "This is a Todo list app example build with VueJs",
+            "techUsed": "HTML, CSS, JavaScript, VueJs, ViteJs, Bootstrap",
+            "hasRepo": true,
+            "gitRepo": "https://github.com/pcabreram1234/todo-list-vuejs"
+          }
+        },
+        {
+          "id": 3,
           "link": "https://silly-sinoussi-97285e.netlify.app/",
           "image": "/assets/static/projects/CharosGarden.png",
           "text": "Charos Garden",
@@ -44,7 +83,7 @@
           }
         },
         {
-          "id": 2,
+          "id": 4,
           "link": "https://suspicious-davinci-23bef4.netlify.app/",
           "image": "/assets/static/projects/Register.png",
           "text": "Register",
@@ -57,7 +96,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 5,
           "link": "https://ekofarming.net/",
           "image": "/assets/static/projects/Ekofarming.png",
           "text": "Ekofarming",
@@ -70,7 +109,7 @@
           }
         },
         {
-          "id": 4,
+          "id": 6,
           "link": "https://e-commerce-template-pocho.netlify.app/",
           "image": "/assets/static/projects/eCommerceTemplate.png",
           "text": "e-Commerce Template",

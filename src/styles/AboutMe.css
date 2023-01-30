@@ -1,3 +1,13 @@
+.AboutMe__Container img {
+  border-radius: 50%;
+  margin: 30px 0;
+  opacity: 0.7;
+}
+
+.AboutMe__Container img:hover {
+  opacity: 1;
+}
+
 @media (max-width: 850px) {
   .AboutMe__Container {
     height: 100vh !important;

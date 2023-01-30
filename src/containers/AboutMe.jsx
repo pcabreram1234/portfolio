@@ -1,6 +1,6 @@
 import React from "react";
 import initialConfig from "../util/config.json";
-import { Row, Typography } from "antd";
+import { Row, Typography, Image } from "antd";
 import "../styles/AboutMe.css";
 
 const { Text } = Typography;
@@ -11,14 +11,18 @@ const AboutMe = () => {
       justify="center"
       align="middle"
       gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
-      style={{ padding: "0 30px", height: "100vh" }}
+      style={{ padding: "0 30px", height: "100vh", flexDirection: "column" }}
       className="AboutMe__Container"
       id="about"
     >
+      <Image
+        src={initialConfig[0].pages.AboutMe.image}
+        width={300}
+        preview={false}
+      />
       <Text
         style={{
           color: "white",
-          padding: "0 5%",
           fontSize: "50px",
           wordSpacing: "4px",
           textAlign: "center",
