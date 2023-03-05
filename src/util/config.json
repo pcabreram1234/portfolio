@@ -9,12 +9,12 @@
     },
     "pages": {
       "Index": {
-        "title": "Hi I`m Phillip and this is my  portfolio.",
+        "title": "Hi I'm Phillip and this is my  portfolio.",
         "image": "./assets/static/profile.png"
       },
       "AboutMe": {
         "title": "ABOUT ME!!",
-        "text": "I am an Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
+        "text": "I'm a Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
         "image": "/assets/static/profile.png"
       },
       "projects": [
@@ -25,7 +25,7 @@
           "text": "Autos Bello",
           "details": {
             "title": "Autos Bello",
-            "textInfo": "Page created for a car dealer located in Esperanza, Mao Valverde Rep. Dom",
+            "textInfo": "Page created for a car dealer located in Esperanza, Mao Valverde, Rep. Dom",
             "techUsed": "HTML, CSS, JavaScript y WebPack",
             "hasRepo": false
           }
@@ -132,7 +132,7 @@
           "icon": "/assets/static/css3.png"
         },
         {
-          "text": "Considerable experience about how to add interactivity on a web page.",
+          "text": "Considerable experience about how to add interactivity to a web page.",
           "icon": "/assets/static/javascript.png"
         },
         {
@@ -140,15 +140,15 @@
           "icon": "/assets/static/php-icon.png"
         },
         {
-          "text": "Some of my projects are build with this amazin library.",
+          "text": "Some of my projects are build with this amazing library.",
           "icon": "/assets/static/react-icon.png"
         },
         {
-          "text": "One year of experience about the MYSQL Databases managment",
+          "text": "One year of experience about the MySQL Databases managment",
           "icon": "/assets/static/mysql.png"
         },
         {
-          "text": "Knowledge required to work with version control",
+          "text": "Knowledge required to work with version control.",
           "icon": "/assets/static/git-icon.png"
         }
       ],
