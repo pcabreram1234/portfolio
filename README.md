@@ -3,10 +3,10 @@
 This repository has the purpose of saving everything related to my portfolio.
 In it you will find the following aspects of my life as a web developer.
 
-> My personal information
-> My skills
-> My contacts
-> Social networks
+> My personal information <br>
+> My skills <br>
+> My contacts <br>
+> Social networks 
 
 ## Technologies used
 
@@ -18,7 +18,7 @@ For the creation of this portfolio I have used the following Web technologies.
 
 ### Other technologies
 
-In addition to the technologies mentioned above, also use the following
+In addition to the technologies mentioned above, also use the following:
 
 - ViteJs (For packaging and correct deployment after production).
 - ReactJs as a library to build the UI components with Antdesign.
@@ -26,7 +26,7 @@ In addition to the technologies mentioned above, also use the following
 ## Initialize
 
 Anyone who likes can clone this repository and use it as a reference.
-You just need to do the following steps
+You just need to do the following steps:
 
 - Download or clone the repository
 - Install dependencies with npm Install
