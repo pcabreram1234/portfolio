@@ -28,7 +28,7 @@ In addition to the technologies mentioned above, also use the following:
 Anyone who likes can clone this repository and use it as a reference.
 You just need to do the following steps:
 
-- Download or clone the repository
-- Install dependencies with npm Install
-- Execute the script npm run start (to view in development mode)
+- Download or clone the repository.
+- Install dependencies with npm Install.
+- Execute the script npm run start (to view in development mode).
 - If you want to change the missing information, you just have to modify the config.json file in the util folder.
