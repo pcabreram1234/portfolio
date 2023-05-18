@@ -97,19 +97,6 @@
         },
         {
           "id": 5,
-          "link": "https://ekofarming.net/",
-          "image": "/assets/static/projects/Ekofarming.png",
-          "text": "Ekofarming",
-          "details": {
-            "title": "Ekofarming",
-            "textInfo": "Website for a company dedicated to the sale, purchase and processing of agricultural products",
-            "techUsed": "HTML, CSS, JavaScript, ReactJs y WebPack",
-            "hasRepo": false,
-            "gitRepo": "https://github.com/pcabreram1234/javaScriptPratice-final-task"
-          }
-        },
-        {
-          "id": 6,
           "link": "https://e-commerce-template-pocho.netlify.app/",
           "image": "/assets/static/projects/eCommerceTemplate.png",
           "text": "e-Commerce Template",
