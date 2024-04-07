@@ -14,22 +14,10 @@
       },
       "AboutMe": {
         "title": "ABOUT ME!!",
-        "text": "I'm a Full Stack Web Developer. I currently work as a Geografic database analyst in one of the electricity distribution companies in my country.",
+        "text": "I'm a Full Stack Web Developer. I currently work as an IT analyst with functions that range from providing support to users in the different legacy systems of one of the electrical service companies in my country, as well as developing solutions for the different needs that arise from the users and the team.",
         "image": "/assets/static/profile.png"
       },
       "projects": [
-        {
-          "id": 0,
-          "link": "https://autosbellodealer.com/",
-          "image": "/assets/static/projects/AutosBello.png",
-          "text": "Autos Bello",
-          "details": {
-            "title": "Autos Bello",
-            "textInfo": "Page created for a car dealer located in Esperanza, Mao Valverde, Rep. Dom",
-            "techUsed": "HTML, CSS, JavaScript y WebPack",
-            "hasRepo": false
-          }
-        },
         {
           "id": 1,
           "link": "https://cowofi.netlify.app/",
